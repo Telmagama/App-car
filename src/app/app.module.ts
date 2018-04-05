@@ -10,10 +10,12 @@ import { HttpClient } from '@angular/common/http';
 import { HttpClientModule } from '@angular/common/http';
 import { CarrosServiceProvider } from '../providers/carros-service/carros-service';
 
+
 @NgModule({
   declarations: [
     MyApp,
     HomePage
+
   ],
   imports: [
     BrowserModule,
